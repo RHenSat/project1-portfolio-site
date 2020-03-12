@@ -38,6 +38,9 @@ article {
     font-family: Medula;
 
 }
+#me {
+    font-size: 40px;
+}
 p {
     color:#000000;
     background-color: rgba( 255,255,255,.5);
@@ -62,9 +65,9 @@ p {
     align-items:center;
     justify-content:center;
 }
-.wrapper { 
-display:grid;
-grid-template-columns: repeat (2 1fr);
+.cards{ 
+    align-items:center;
+    justify-content:center
 
 }
 
