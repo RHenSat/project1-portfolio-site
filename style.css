@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Medula+One&display=swap'); */
+
 h1 {
     text-align: center;
     color: #ffffff;
@@ -22,6 +24,11 @@ body {
 }
 div {
     margin:10px;
+    font-family: Medula;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-weight:700;
+    font-family:"Lato", sans-serif;
 }
 article {
     color:#000000;
