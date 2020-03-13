@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Medula+One&display=swap'); */
-
 h1 {
     text-align: center;
     color: #ffffff;
@@ -29,6 +27,9 @@ div {
 .navbar-light .navbar-nav .nav-link{
     font-weight:700;
     font-family:"Lato", sans-serif;
+}
+.btn btn-default { 
+    background-color: #ff0000; 
 }
 article {
     color:#000000;
@@ -75,7 +76,12 @@ p {
 .cards{ 
     align-items:center;
     justify-content:center
-
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px, auto;
+    column-gap: 10px;
 }
 
 @media (min-width: 576px) and (max-width: 767.98px)
