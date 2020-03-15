@@ -1,13 +1,13 @@
 h1 {
     text-align: center;
     color: #ffffff;
-    font-family: Medula;
+    font-family: Pacifico, cursive;
     font-size: 40px;
 }
 h2 {
     text-align: center;
     color:#ffffff;
-    font-family: Medula;
+    font-family: Pacifico, cursive;
     font-size: 30px;
 }
 
@@ -22,14 +22,15 @@ body {
 }
 div {
     margin:10px;
-    font-family: Medula;
+    font-family: Pacifico, cursive;
+    font-size: small;
 }
 .navbar-light .navbar-nav .nav-link{
     font-weight:700;
     font-family:"Lato", sans-serif;
 }
 .btn btn-default { 
-    background-color: #ff0000; 
+    background-color: black; 
 }
 article {
     color:#000000;
@@ -39,11 +40,10 @@ article {
     width:800px;
     margin: 0 auto;
     justify-content: center;
-    font-size: 80px;
+    font-size: 30px;
     font-weight: 700;
-    /*padding: 12px;*/
     text-align: center;
-    font-family: Medula;
+    font-family: Pacifico, cursive;
 
 }
 #me {
@@ -54,12 +54,12 @@ p {
     background-color: rgba( 255,255,255,.5);
     display:flex;
     justify-content: center;
-    font-size: 30px;
-    font-family: Medula;
+    font-size: 15px;
+    font-family: ;
 }
 .Mandela {
     font-size: 15px;
-    font-family: Medula;
+    font-family: Pacifico, cursive;
 }   
 .square {
     display: flex;
@@ -69,45 +69,49 @@ p {
     border-radius: 100%;
     color: black;
     font-size: 30px;
-    font-family: Medula;
+    font-family: Pacifico, cursive;
     align-items:center;
     justify-content:center;
 }
 .cards{ 
-    align-items:center;
-    justify-content:center
+    /*align-items:center;
+    justify-content:center*/
 }
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: 100px, auto;
-    column-gap: 10px;
+    justify-content:center;
+    align-items:center;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px)
-div:first-of-type {
-    width: 50% }
-    article { 
-    width: 50%;
+@media (max-width: 768px) { 
+  .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 80%, auto;
+        width: 50%; 
     }
-
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    div:first-of-type {
-    width: 50% }
     article { 
-    width: 50%;
+        width: 50%;       
+    }
+    div {
+     
     }
 
 @media (min-width: 992px) and (max-width: 1199px){
-    div:first-of-type{
-    width: 50%;}
+    .wrapper{
+        grid-template-columns: repeat(3, 1fr);
+        width: 50%;}
     article {
-    width: 50%;
+        width: 50%;
+        font-size: 50px;}
     }
-
 @media (min-width: 1200px) { 
-    div:first-of-type {
-    width: 25%; }
+    .wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        width: 25%; 
+    }
     article { 
-    width: 25%;
-    } 
+        width: 25%;
+        font-size: 70px;}
+    }
