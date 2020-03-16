@@ -18,8 +18,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height:100%;
+    height:100%;    
 }
+
 div {
     margin:10px;
     font-family: Pacifico, cursive;
@@ -28,7 +29,13 @@ div {
 .navbar-light .navbar-nav .nav-link{
     font-weight:700;
     font-family:"Lato", sans-serif;
-   
+    font-size: 1.75em ;
+}
+.nav-color{
+    background-color: #1c2331; 
+}
+.nav-link-color {
+    color: #59698d;
 }
 .btn btn-primary { 
     background-color: black; 
