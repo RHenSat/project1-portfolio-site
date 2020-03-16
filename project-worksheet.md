@@ -8,9 +8,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -18,7 +18,15 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Personal Site 
+Aim: Show/communicate to potential clients/employers, through pictures, design and some text:
+The best samples of my work, 
+A clear sense of my personality & work ethic and raise interest in working with me.
+
+Intended impression : simple, clear, minimalist and elegant.
+
+Features : Interactive
+
 
 ## Google Sheet
 
@@ -27,6 +35,14 @@ Include link to your google sheet here.  Here is the sample [Joe had used in cla
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
+
+[mywireframe](readme-assets/IMG_2033.jpg)
+[mywireframe2](readme-assets/IMG_2031.jpg)
+[mywireframe3](readme-assets/IMG_2033.jpg)
+[mywireframe4](readme-assets/IMG_2035.jpg)
+[mywireframe5](readme-assets/IMG_2036.jpg)
+
+
 
 [https://www.figma.com/](https://www.figma.com/)
 [https://mockflow.com/app/#Wireframe](https://mockflow.com/app/#Wireframe)
@@ -62,15 +78,22 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Contact form | H | 1hr| 1hr | 2hrs |
+| Working with API | H | 3hrs| 5hrs | 10hrs |
+| Responsiveness | H | 3 hrs | 1hr | 8hrs |
+| Gallery | H | 4hrs | 4hrs | 4hrs|
+| Nav bar  | H | 2 hrs|4hrs| 8hrs|
+| Scroll Effect| M | 3 hrs | 1hr | 1hr|
+| Total | H | 16hrs| 16hrs | 31hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
-
+ www.w3schools.com
+ https://www.impactbnd.com/blog/best-contact-us-page-examples
+ https://www.freecodecamp.org/ 
+ https://uxplanet.org/
+https://css-tricks.com/
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
